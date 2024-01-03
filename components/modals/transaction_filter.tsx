@@ -70,7 +70,7 @@ export default function TransactionFilter({
                         as="h3"
                         className="text-2xl font-bold leading-7 text-pry-dark"
                       >
-                        Filter
+                        Filters
                       </Dialog.Title>
                       <button onClick={toggleModal}>
                         <Close />
@@ -93,7 +93,7 @@ export default function TransactionFilter({
                         }}
                         className="w-[98px] py-2.5 border border-[#EFF1F6] rounded-[100px] text-sm font-semibold tracking-[-0.4px]"
                       >
-                        Last 7 days
+                        Last 7 days.
                       </button>
                       <button
                         onClick={() => {
