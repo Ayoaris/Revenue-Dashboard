@@ -48,7 +48,7 @@ const Nav = () => {
               href="/"
             >
               <Money />
-              <span>Revenue</span>
+              <span>Revenues</span>
             </Link>
           </li>
           <li>
