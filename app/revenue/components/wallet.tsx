@@ -47,13 +47,13 @@ export const options = {
         minRotation: 0,
       },
       grid: {
-        display: false, // Remove vertical gridlines
+        display: false, // Remove vertical gridlines on display
         beginAtZero: true,
       },
     },
     y: {
       grid: {
-        display: true, // Optionally, hide horizontal gridlines
+        display: true, // Optionally, hide horizontal gridlines on display
       },
       beginAtZero: true,
       display: false, // Set to false to remove the main vertical axis line
