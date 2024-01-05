@@ -76,9 +76,10 @@ const Transactions = () => {
             Your transactions{" "}
             {!countTruthyKeys(filterCriteria) && `for all Time`}
             {filterCriteriaPayload.startDate &&
-              filterCriteriaPayload.endDate &&
-              countTruthyKeys(filterCriteria) ?
-              `between ${filterCriteriaPayload.startDate} and ${filterCriteriaPayload.endDate}`: ""}
+            filterCriteriaPayload.endDate &&
+            countTruthyKeys(filterCriteria)
+              ? `between ${filterCriteriaPayload.startDate} and ${filterCriteriaPayload.endDate}`
+              : ""}
           </div>
         </div>
         <div className="flex gap-3 items-center">
@@ -109,16 +110,16 @@ const Transactions = () => {
               <Receipt />
             </div>
             <div className="font-bold text-[26px] mb-2.5">
-              No matching transaction found for the selected filter
+              No matching transactions found for the selected filter
             </div>
             <div className="text-[#56616B] mb-8">
-              Change your filters to see more results, or add a new product.
+              Change your filter to see more results, or add a new product.
             </div>
             <button
               onClick={resetFilter}
               className="flex items-center font-semibold tracking-[-0.6px] bg-[#EFF1F6] rounded-[100px] py-3 px-6"
             >
-              <span>Clear Filter</span>
+              <span>Clear all Filters</span>
             </button>
           </div>
         </div>
