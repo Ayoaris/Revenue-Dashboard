@@ -119,7 +119,7 @@ const Transactions = () => {
               onClick={resetFilter}
               className="flex items-center font-semibold tracking-[-0.6px] bg-[#EFF1F6] rounded-[100px] py-3 px-6"
             >
-              <span>Clear all Filters</span>
+              <span>Clear Filter</span>
             </button>
           </div>
         </div>
