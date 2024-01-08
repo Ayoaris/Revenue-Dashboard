@@ -39,7 +39,7 @@ const Nav = () => {
               href="/"
             >
               <Chart />
-              <span>Analytics</span>
+              <span>All Analytics</span>
             </Link>
           </li>
           <li>
